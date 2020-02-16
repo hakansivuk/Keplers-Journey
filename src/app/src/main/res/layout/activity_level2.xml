@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".GameActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/qb2"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        app:srcCompat="@drawable/qb2"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <ImageView
+        android:id="@+id/fuel2"
+        android:layout_width="60px"
+        android:layout_height="90px"
+        app:srcCompat="@drawable/fuel1"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <ImageView
+        android:id="@+id/spaceCraft_2"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/sc3" />
+
+    <ImageView
+        android:id="@+id/planet1_2"
+        android:layout_width="420px"
+        android:layout_height="420px"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/p1" />
+
+    <ImageView
+        android:id="@+id/planet2_2"
+        android:layout_width="360px"
+        android:layout_height="360px"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/p2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:text="         Level 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/planet4_2"
+        android:layout_width="330px"
+        android:layout_height="330px"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/e1" />
+
+    <TextView
+        android:id="@+id/timeTextView_2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:text="Remaining Time: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/fuelBar_2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="205dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="4dp"
+        android:progress="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/arrow_2"
+        android:layout_width="19dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="264dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/arrow3" />
+
+    <ImageView
+        android:id="@+id/planet3_2"
+        android:layout_width="360px"
+        android:layout_height="360px"
+        app:srcCompat="@drawable/jupiter"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="?android:attr/colorControlHighlight"
+        android:onClick="pause"
+        app:srcCompat="@drawable/pause3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_2"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="232dp"
+        android:background="@drawable/fire"
+        android:src="@drawable/fire"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/dup2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="112dp"
+        android:layout_marginStart="52dp"
+
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/up" />
+
+    <ImageButton
+        android:id="@+id/ddown2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="52dp"
+
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/down" />
+
+    <ImageButton
+        android:id="@+id/dleft2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginStart="4dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/left" />
+
+    <ImageButton
+        android:id="@+id/dright2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginStart="100dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/right" />
+
+    <ImageView
+        android:id="@+id/tleft2"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:layout_marginEnd="188dp"
+        android:layout_marginRight="188dp"
+        app:srcCompat="@drawable/fleft"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <ImageView
+        android:id="@+id/tright2"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        app:srcCompat="@drawable/fright"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <ImageView
+        android:id="@+id/tup2"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        app:srcCompat="@drawable/fup"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <ImageView
+        android:id="@+id/tdown2"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        app:srcCompat="@drawable/fdown"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>

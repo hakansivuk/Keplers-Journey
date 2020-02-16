@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".GameActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/qb5"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        app:srcCompat="@drawable/qb2"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <ImageView
+        android:id="@+id/fuel5"
+        android:layout_width="60px"
+        android:layout_height="90px"
+        app:srcCompat="@drawable/fuel1"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <ImageView
+        android:id="@+id/spaceCraft_5"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/sc3" />
+
+    <ImageView
+        android:id="@+id/planet8_5"
+        android:layout_width="350px"
+        android:layout_height="350px"
+        app:srcCompat="@drawable/e5"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <ImageView
+        android:id="@+id/planet7_5"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        app:srcCompat="@drawable/black"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <ImageView
+        android:id="@+id/planet6_5"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        app:srcCompat="@drawable/black"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <ImageView
+        android:id="@+id/planet4_5"
+        android:layout_width="800px"
+        android:layout_height="800px"
+        app:srcCompat="@drawable/p4"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <ImageView
+        android:id="@+id/planet3_5"
+        android:layout_width="350px"
+        android:layout_height="350px"
+        app:srcCompat="@drawable/purple"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <ImageView
+        android:id="@+id/planet1_5"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_marginTop="244dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pink" />
+
+    <ImageView
+        android:id="@+id/planet2_5"
+        android:layout_width="750px"
+        android:layout_height="750px"
+        android:layout_marginBottom="192dp"
+        android:layout_marginEnd="220dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/coruscant" />
+
+    <ImageView
+        android:id="@+id/planet5_5"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="252dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/black" />
+
+    <TextView
+        android:id="@+id/timeTextView_5"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:text="Remaining Time: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:text="         Level 5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:background="?android:attr/colorControlHighlight"
+        android:onClick="pause"
+        app:srcCompat="@drawable/pause3"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ProgressBar
+        android:id="@+id/fuelBar_5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="205dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="4dp"
+        android:progress="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/arrow_5"
+        android:layout_width="19dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="264dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/arrow3" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_5"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/fire"
+        android:src="@drawable/fire"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <ImageButton
+        android:id="@+id/dup5"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="112dp"
+        android:layout_marginStart="52dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/up" />
+
+    <ImageButton
+        android:id="@+id/ddown5"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="52dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/down" />
+
+    <ImageButton
+        android:id="@+id/dleft5"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginStart="4dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/left" />
+
+    <ImageButton
+        android:id="@+id/dright5"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginStart="100dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/right" />
+    <ImageView
+        android:id="@+id/tleft5"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        app:srcCompat="@drawable/fleft"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <ImageView
+        android:id="@+id/tright5"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        app:srcCompat="@drawable/fright"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <ImageView
+        android:id="@+id/tup5"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        app:srcCompat="@drawable/fup"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <ImageView
+        android:id="@+id/tdown5"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        app:srcCompat="@drawable/fdown"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+</android.support.constraint.ConstraintLayout>

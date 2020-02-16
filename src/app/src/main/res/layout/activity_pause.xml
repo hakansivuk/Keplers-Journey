@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/soundOnp"
+        android:layout_width="76dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="172dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:clickable="false"
+        android:onClick="soundOn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/sound_on" />
+
+    <ImageView
+        android:id="@+id/soundOffp"
+        android:layout_width="87dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="164dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:onClick="soundOff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/no" />
+
+    <Button
+        android:id="@+id/soundp"
+        android:layout_width="94dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="156dp"
+        android:background="@android:color/transparent"
+        android:onClick="sound"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/resumeGame"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="150dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/gri"
+        android:onClick="resumeGame"
+        android:text="Resume Game"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toTopOf="@+id/mainMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791" />
+
+    <Button
+        android:id="@+id/mainMenup"
+        android:layout_width="150dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="280dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/gri"
+        android:onClick="mainMenu"
+        android:text="MAIN Menu"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

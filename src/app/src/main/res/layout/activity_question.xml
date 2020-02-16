@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/question_header"
+        android:layout_width="157dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="16dp"
+        android:text="QUESTION"
+        android:textColor="@android:color/background_light"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="84dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/gri"
+        android:onClick="choice"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionText" />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/gri"
+        android:onClick="choice"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/choice1"
+        app:layout_constraintStart_toStartOf="@+id/choice1"
+        app:layout_constraintTop_toBottomOf="@+id/choice1" />
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="348dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/gri"
+        android:onClick="choice"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/choice2"
+        app:layout_constraintStart_toStartOf="@+id/choice2"
+        app:layout_constraintTop_toBottomOf="@+id/choice2" />
+
+    <Button
+        android:id="@+id/choice4"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:onClick="choice"
+        android:background="@drawable/gri"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/choice3"
+        app:layout_constraintStart_toStartOf="@+id/choice3"
+        app:layout_constraintTop_toBottomOf="@+id/choice3" />
+
+</android.support.constraint.ConstraintLayout>
